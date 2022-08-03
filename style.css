@@ -54,14 +54,26 @@ li i{
   width: 300px;
 }
 .btn{
-  background-color: blue;
+  background-color: #e60f05;
   color: white;
   padding: 8px 24px;
+  margin: 8px 0;
+}
 
+.btn:hover{
+  color: blue;
 }
+
 #entete{
-  height: 300px;
+  height: 350px;
 }
+#data{
+  height: 200px;
+}
+#webdev{
+  height: 180px;
+}
+
 @media (max-width: 960px) {
   /* Pour un écran < 960px, cette classe CSS s'applique */
   .container {
@@ -91,6 +103,12 @@ li i{
     width:240px ;
   }
   #entete{
-    height: 380px;
+    height: 500px;
+  }
+  #data{
+    height: 300px;
+  }
+  #webdev{
+    height: 230px;
   }
 }

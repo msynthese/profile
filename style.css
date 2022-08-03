@@ -92,6 +92,9 @@ li i{
   .image{
     width: 260px;
   }
+  #data{
+    height: 230px;
+  }
 }
 
 @media (max-width: 540px) {
@@ -103,7 +106,7 @@ li i{
     width:240px ;
   }
   #entete{
-    height: 800px;
+    height: 550px;
   }
   #data{
     height: 300px;

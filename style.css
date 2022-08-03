@@ -1,0 +1,93 @@
+body {
+  box-sizing: border-box;
+  background-color: rgb(200, 200, 200);
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-size: 16px;
+  line-height: normal;
+}
+h1, h2{
+  color: black;
+  font-size: 40px;
+  font-family: 'Square Peg', cursive;
+}
+h3{
+  color: red;
+  font-size: 40px;
+  font-family: 'Square Peg', cursive;
+}
+a{
+  color: blue;
+  text-decoration: none;
+}
+a:hover{
+  color: red;
+}
+.container{
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+li{
+  display: inline;
+}
+.card{
+  /* background: linear-gradient(from left, rgb(200,200,200) 5%,white 90%, rgb(200,200,200)5%); */
+  background: linear-gradient(to left, rgb(200,200,200) 0%, white 35%, rgb(200,200,200) 100%);
+  margin: 10px;
+  /* border: 1px solid black; */
+  padding: 10px;
+}
+.img-circle {
+  border-radius: 50%;
+  border: 1px solid black;
+}
+li i{
+  font-size: 48px;
+  margin:0 10px;
+}
+.image{
+  width: 300px;
+}
+.btn{
+  background-color: blue;
+  color: white;
+  padding: 8px 24px;
+
+}
+#entete{
+  height: 300px;
+}
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+  .image{
+    width: 280px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+  .image{
+    width: 260px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+  .image{
+    width:240px ;
+  }
+}
